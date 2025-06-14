@@ -35,5 +35,5 @@ const summary = {
   flagged_5xx_errors: errors5xx
 };
 
-writeFileSync('sample_output.json', JSON.stringify(summary, null, 2));
+writeFileSync('SampleOutput.json', JSON.stringify(summary, null, 2));
 console.log(JSON.stringify(summary, null, 2));
