@@ -1,0 +1,12 @@
+{
+  "name": "api-logs-analyzer",
+  "version": "1.0.0",
+  "author": "koushik",
+  "description": "Analyze API logs for most active IPs, top endpoints, and 5xx errors.",
+  "main": "analyze_logs.js",
+  "type": "module",
+  "scripts": {
+    "start": "node analyze_logs.js"
+  },
+  "license": "MIT"
+}
