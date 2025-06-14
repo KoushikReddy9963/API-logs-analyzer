@@ -37,7 +37,7 @@ graph TD;
    ```sh
    node analyze_logs.js
    ```
-4. The summary will be printed and saved as `sample_output.json`.
+4. The summary will be printed and saved as `SampleOutput.json`.
 
 ## Output
 - **most_active_ips**: Top IPs by request count.
@@ -46,6 +46,4 @@ graph TD;
 
 ---
 
-**Note:**
-- The script uses ES module `import` syntax. Node.js 14+ is recommended.
-- If you get an error about `import`, add `"type": "module"` to your `package.json`.
+Author : Y Sai Koushik Reddy
